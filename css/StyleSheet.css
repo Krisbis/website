@@ -1,0 +1,175 @@
+head {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+p {
+  color: rgb(1, 1, 1);
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 10;
+  text-decoration: underline dotted rgb(36, 36, 36) 10px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  background-color: rgb(254, 254, 254);
+
+  font-weight: 500;
+  font-size: large;
+  align-items: center;
+}
+
+.nav_bar {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 0px;
+  width: 70%;
+}
+
+a {
+  padding: 15px;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(9, 9, 9);
+  background-color: transparent;
+}
+a:hover {
+  color: rgb(17, 17, 17);
+  background-color: transparent;
+  padding: 8px 16px;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 20px;
+}
+
+.boxes {
+    height: 102px;
+    width: 102px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    border-radius: 20px;
+    
+  }
+
+  .my_page{
+    border: 3px solid black;
+  }
+
+#box1 {
+  background-color: rgb(251, 214, 204);
+}
+#box2 {
+  background-color: rgb(254, 147, 117);
+}
+#box3 {
+  background-color: rgb(253, 55, 0);
+}
+#box4 {
+  background-color: rgb(247, 211, 8);
+}
+#box5 {
+  background-color: rgb(247, 255, 104);
+}
+#box6 {
+  background-color: rgb(138, 246, 124);
+}
+#box7 {
+  background-color: rgb(66, 248, 172);
+}
+#box8 {
+  background-color: rgb(124, 80, 243);
+}
+#box9 {
+  background-color: rgb(241, 21, 230);
+}
+#box10 {
+  background-color: rgb(182, 7, 173);
+}
+#box11 {
+  background-color: rgb(246, 93, 154);
+}
+#box12 {
+  background-color: rgb(241, 21, 80);
+}
+#box13 {
+  background-color: rgb(241, 21, 21);
+}
+#box14 {
+  background-color: rgb(226, 231, 189);
+}
+#box15 {
+  background-color: rgb(234, 234, 129);
+}
+#box16 {
+  background-color: rgb(186, 244, 105);
+}
+#box17 {
+  background-color: rgb(77, 245, 59);
+}
+#box18 {
+  background-color: rgb(21, 241, 212);
+}
+#box19 {
+  background-color: rgb(57, 115, 240);
+}
+#box20 {
+  background-color: rgb(57, 240, 164);
+}
+#box21 {
+  background-color: rgb(158, 57, 240);
+}
+#box22 {
+  background-color: rgb(240, 57, 240);
+}
+#box23 {
+  background-color: rgb(244, 34, 157);
+}
+#box24 {
+  background-color: rgb(187, 26, 53);
+}
+#box25 {
+  background-color: rgb(248, 134, 134);
+}
+#box26 {
+  background-color: rgb(255, 0, 174);
+}
+#box27 {
+  background-color: rgb(99, 113, 238);
+}
+#box28 {
+  background-color: rgb(27, 253, 245);
+}
+#box29 {
+  background-color: rgb(97, 242, 242);
+}
+#box30 {
+  background-color: rgb(57, 240, 191);
+}
