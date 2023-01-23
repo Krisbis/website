@@ -1,8 +1,12 @@
 @font-face {
-    font-family: "reinkies";
-    src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
-    src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
-    src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
+  font-family: "reinkies";
+  src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
+  src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
+  src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 head {
@@ -13,14 +17,13 @@ head {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: rgb(255, 255, 255);
-  background-image:url(/website/Images/paint-2174687.png);
+  background-image: url(/website/Images/paint-2174687.png);
   /*Image by CreatureSH from Pixabay*/
   background-size: cover;
   background-position-y: 100px;
-  
-  
+
   background-position-x: 0px;
 }
 p {
@@ -31,9 +34,12 @@ p {
 
 h1 {
   color: rgb(0, 0, 0);
-  font-family: 'reinkies', Arial, Helvetica, sans-serif;
-  font-size: 10;
+  font-family: "reinkies", Arial, Helvetica, sans-serif;
+  font-size: 50px;
   text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 5px;
 }
 
 nav {
@@ -74,13 +80,18 @@ a:visited {
   color: rgb(9, 9, 9);
   background-color: transparent;
 }
-a:hover {
+nav a:hover{
   color: rgb(17, 17, 17);
   background-color: transparent;
   padding: 8px 16px;
   background-color: #04aa6d;
   color: white;
   border-radius: 20px;
+}
+
+
+.half_section1 a:hover {
+    background-image: url(/website/Images/ink-stain-1.png);
 }
 
 .boxes {
@@ -107,18 +118,27 @@ a:hover {
   margin-bottom: 50px;
   background-color: rgb(255, 255, 255);
 }
-.autograph{
-    font-family: 'Reinkies',Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 50px;
-    text-align: center;
-    
+.autograph {
+  font-family: "Reinkies", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
 }
-.about_me{
-   
-    text-align: center;
-    
+.introduction {
+  text-align: center;
+}
+.half_section1 {
+  width: 35%;
+  height: 60%;
+  margin-top: 30px;
+  float: left;
+}
+.half_section2 {
+  width: 62%;
+  height: 60%;
+  margin-top: 30px;
+  float: right;
 }
 
 #box1 {
