@@ -17,8 +17,8 @@ p {
 
 h1 {
   color: rgb(0, 0, 0);
+  font-family: 'reinkies', Arial, Helvetica, sans-serif;
   font-size: 10;
-  text-decoration: underline dotted rgb(36, 36, 36) 10px;
   text-align: center;
 }
 
@@ -44,6 +44,9 @@ nav {
   padding-bottom: 15px;
   padding-right: 0px;
   width: 70%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 a {
@@ -69,27 +72,42 @@ a:hover {
 }
 
 .boxes {
-    height: 101px;
-    width: 101px;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    float: left;
-    border-radius: 20px;
-    
-  }
+  height: 101px;
+  width: 101px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  float: left;
+  border-radius: 20px;
+}
 
-  .main_page{
-    border: 1px solid rgb(26, 26, 26);
-    width: 50%;
-    height: 750px;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: whitesmoke;
-    opacity: 0.8;
-
-  }
+.main_page {
+  border: 1px solid rgb(26, 26, 26);
+  border-radius: 10px;
+  width: 62%;
+  height: 750px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.autograph{
+    font-family: 'Reinkies',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+@font-face {
+    font-family: "reinkies";
+    src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
+    src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
+    src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
+}
 
 #box1 {
   background-color: rgb(251, 214, 204);
