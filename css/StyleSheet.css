@@ -69,8 +69,8 @@ a:hover {
 }
 
 .boxes {
-    height: 102px;
-    width: 102px;
+    height: 101px;
+    width: 101px;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -79,8 +79,16 @@ a:hover {
     
   }
 
-  .my_page{
-    border: 3px solid black;
+  .main_page{
+    border: 1px solid rgb(26, 26, 26);
+    width: 50%;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+
   }
 
 #box1 {
