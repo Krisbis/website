@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "reinkies";
+    src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
+    src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
+    src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
+}
+
 head {
   margin: 0px;
   padding: 0px;
@@ -6,8 +13,15 @@ head {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: rgb(255, 255, 255);
+  background-image:url(/website/Images/paint-2174687.png);
+  /*Image by CreatureSH from Pixabay*/
+  background-size: cover;
+  background-position-y: 100px;
+  
+  
+  background-position-x: 0px;
 }
 p {
   color: rgb(1, 1, 1);
@@ -44,8 +58,6 @@ nav {
   padding-bottom: 15px;
   padding-right: 0px;
   width: 70%;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
   top: 0;
 }
 
@@ -101,12 +113,12 @@ a:hover {
     font-style: normal;
     font-size: 50px;
     text-align: center;
+    
 }
-@font-face {
-    font-family: "reinkies";
-    src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
-    src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
-    src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
+.about_me{
+   
+    text-align: center;
+    
 }
 
 #box1 {
