@@ -39,7 +39,8 @@ h1 {
   text-align: center;
   font-weight: normal;
   font-style: normal;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 nav {
@@ -80,7 +81,7 @@ a:visited {
   color: rgb(9, 9, 9);
   background-color: transparent;
 }
-nav a:hover{
+nav a:hover {
   color: rgb(17, 17, 17);
   background-color: transparent;
   padding: 8px 16px;
@@ -89,19 +90,8 @@ nav a:hover{
   border-radius: 20px;
 }
 
-
 .half_section1 a:hover {
-    background-image: url(/website/Images/ink-stain-1.png);
-}
-
-.boxes {
-  height: 101px;
-  width: 101px;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  float: left;
-  border-radius: 20px;
+  background-image: url(/website/Images/ink-stain-1.png);
 }
 
 .main_page {
@@ -133,12 +123,37 @@ nav a:hover{
   height: 60%;
   margin-top: 30px;
   float: left;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 20px;
 }
 .half_section2 {
-  width: 62%;
+  width: 64%;
   height: 60%;
   margin-top: 30px;
   float: right;
+}
+
+.flex_container {
+  display: flex;
+  height: 303px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: hidden;
+  position: absolute;
+}
+
+.boxes {
+  height: 101px;
+  width: 101px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  float: left;
+  border-radius: 20px;
 }
 
 #box1 {
@@ -166,13 +181,13 @@ nav a:hover{
   background-color: rgb(124, 80, 243);
 }
 #box9 {
-  background-color: rgb(241, 21, 230);
+  background-color: rgb(21, 237, 241);
 }
 #box10 {
-  background-color: rgb(182, 7, 173);
+  background-color: rgb(73, 190, 23);
 }
 #box11 {
-  background-color: rgb(246, 93, 154);
+  background-color: rgb(93, 246, 170);
 }
 #box12 {
   background-color: rgb(241, 21, 80);
@@ -205,7 +220,7 @@ nav a:hover{
   background-color: rgb(158, 57, 240);
 }
 #box22 {
-  background-color: rgb(240, 57, 240);
+  background-color: rgb(155, 57, 240);
 }
 #box23 {
   background-color: rgb(244, 34, 157);
@@ -217,7 +232,7 @@ nav a:hover{
   background-color: rgb(248, 134, 134);
 }
 #box26 {
-  background-color: rgb(255, 0, 174);
+  background-color: rgb(0, 255, 221);
 }
 #box27 {
   background-color: rgb(99, 113, 238);
@@ -226,8 +241,53 @@ nav a:hover{
   background-color: rgb(27, 253, 245);
 }
 #box29 {
-  background-color: rgb(97, 242, 242);
+  background-color: rgb(206, 97, 242);
 }
 #box30 {
+  background-color: rgb(166, 238, 166);
+}
+#box31 {
+  background-color: rgb(240, 57, 176);
+}
+#box32 {
+  background-color: rgb(255, 0, 217);
+}
+#box33 {
+  background-color: rgb(248, 248, 53);
+}
+#box34 {
+  background-color: rgb(240, 57, 57);
+}
+#box35 {
+  background-color: rgb(130, 57, 240);
+}
+#box36 {
+  background-color: rgb(16, 52, 235);
+}
+#box37 {
+  background-color: rgb(57, 206, 240);
+}
+#box38 {
   background-color: rgb(57, 240, 191);
+}
+#box39 {
+  background-color: rgb(57, 240, 97);
+}
+#box40 {
+  background-color: rgb(0, 255, 38);
+}
+#box41 {
+  background-color: rgb(127, 240, 57);
+}
+#box42 {
+  background-color: rgb(212, 240, 57);
+}
+#box43 {
+  background-color: rgb(255, 255, 0);
+}
+#box44 {
+  background-color: rgb(240, 185, 57);
+}
+#box45 {
+  background-color: rgb(246, 16, 16);
 }
