@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 .main_page {
-  border: 1px solid rgb(26, 26, 26);
+  
   border-radius: 10px;
   width: 62%;
   height: 750px;
@@ -107,6 +107,7 @@ nav a:hover {
   margin-top: 80px;
   margin-bottom: 50px;
   background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 0.7rem black);
 }
 .autograph {
   font-family: "Reinkies", Arial, Helvetica, sans-serif;
