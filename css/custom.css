@@ -3,6 +3,7 @@
   src: url(/Fonts/aversa/Aversa-Vectors.woff) format("woff");
   src: url(/Fonts/aversa/Aversa-Vectors.woff2) format("woff");
   src: url(/Fonts/aversa/Aversa-Vectors.otf) format("opentype");
+  src: url(/Fonts/aversa/Aversa-Vectors.ttf) format("truetype");
 }
 @font-face {
   font-family: "reinkies";
@@ -23,7 +24,7 @@ body {
   text-align: center;
 }
 .brushstroke {
-  font-family: "aversa", "reinkies", Arial, Helvetica, sans-serif;
+  font-family: "aversa";
   font-weight: normal;
   font-style: normal;
   font-size: 250px;
@@ -32,14 +33,13 @@ body {
   position: fixed;
   min-width: 100%;
   min-height: 100%;
-  /*bottom: -5rem;*/
-  /*bottom: -15rem;
-    /*left: -10rem;*/
+  bottom: -15rem;
+  left: -10rem;
   right: 0;
   opacity: 20%;
   z-index: -1;
   filter: grayscale(0.8);
   /*license-free videos from pexels.com, edited together.
-    Credits: business-people:Fauxels & cottonbro studios,
-    piano:Kendall Hoopes,alarm-clock:Samsuddoha Shaikh, milky-way:vimeo*/
+        Credits: business-people:Fauxels & cottonbro studios,
+        piano:Kendall Hoopes,alarm-clock:Samsuddoha Shaikh, milky-way:vimeo*/
 }
