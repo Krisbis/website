@@ -1,15 +1,15 @@
 @font-face {
   font-family: "aversa";
-  src: url(/Fonts/aversa/Aversa-Vectors.woff) format("woff");
-  src: url(/Fonts/aversa/Aversa-Vectors.woff2) format("woff");
-  src: url(/Fonts/aversa/Aversa-Vectors.otf) format("opentype");
-  src: url(/Fonts/aversa/Aversa-Vectors.ttf) format("truetype");
+  src: url(Fonts/aversa/Aversa-Vectors.woff) format("woff");
+  src: url(Fonts/aversa/Aversa-Vectors.woff2) format("woff");
+  src: url(Fonts/aversa/Aversa-Vectors.otf) format("opentype");
+  src: url(Fonts/aversa/Aversa-Vectors.ttf) format("truetype");
 }
 @font-face {
   font-family: "reinkies";
-  src: url(/Fonts/reinkies/reinkies-alzl2-webfont.woff) format("woff");
-  src: url(/Fonts/reinkies/reinkies-alzl2-webfont.woff2) format("woff");
-  src: url(/Fonts/reinkies/Reinkies-ALzl2.otf) format("opentype");
+  src: url(Fonts/reinkies/reinkies-alzl2-webfont.woff) format("woff");
+  src: url(Fonts/reinkies/reinkies-alzl2-webfont.woff2) format("woff");
+  src: url(Fonts/reinkies/Reinkies-ALzl2.otf) format("opentype");
 }
 
 @media (min-aspect-ratio: 16/9){
