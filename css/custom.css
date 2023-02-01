@@ -1,19 +1,19 @@
 @font-face {
+    font-family: "reinkies";
+    src: url("/website/Fonts/reinkies/reinkies-alzl2-webfont.woff") format("woff");
+    src: url("/website/Fonts/reinkies/reinkies-alzl2-webfont.woff2") format("woff");
+    src: url("/website/Fonts/reinkies/Reinkies-ALzl2.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
   font-family: "aversa";
   src: url("/website/Fonts/aversa/Aversa-Vectors.woff") format("woff");
   src: url("/website/Fonts/aversa/Aversa-Vectors.woff2") format("woff");
   src: url("/website/Fonts/aversa/Aversa-Vectors.otf") format("opentype");
   src: url("/website/Fonts/aversa/Aversa-Vectors.ttf") format("truetype");
   font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "reinkies";
-  src: url("/website/Fonts/reinkies/reinkies-alzl2-webfont.woff") format("woff");
-  src: url("/website/Fonts/reinkies/reinkies-alzl2-webfont.woff2") format("woff");
-  src: url("/website/Fonts/reinkies/Reinkies-ALzl2.otf") format("opentype");
-  font-weight: normal;
   font-style: normal;
 }
 
@@ -56,5 +56,5 @@ body {
 }
 .brushstroke {
   font-family: 'aversa', 'reinkies';
-  font-size: 250px;
+  font-size: 300px;
 }
