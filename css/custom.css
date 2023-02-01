@@ -1,23 +1,24 @@
 @font-face {
   font-family: "aversa";
-  src: url(/website/Fonts/aversa/Aversa-Vectors.woff) format("woff");
-  src: url(/website/Fonts/aversa/Aversa-Vectors.woff2) format("woff");
-  src: url(/website/Fonts/aversa/Aversa-Vectors.otf) format("opentype");
-  src: url(/website/Fonts/aversa/Aversa-Vectors.ttf) format("truetype");
+  src: url(/Fonts/aversa/Aversa-Vectors.woff) format("woff");
+  src: url(/Fonts/aversa/Aversa-Vectors.woff2) format("woff");
+  src: url(/Fonts/aversa/Aversa-Vectors.otf) format("opentype");
+  src: url(/Fonts/aversa/Aversa-Vectors.ttf) format("truetype");
 }
 @font-face {
   font-family: "reinkies";
-  src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
-  src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
-  src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
+  src: url(/Fonts/reinkies/reinkies-alzl2-webfont.woff) format("woff");
+  src: url(/Fonts/reinkies/reinkies-alzl2-webfont.woff2) format("woff");
+  src: url(/Fonts/reinkies/Reinkies-ALzl2.otf) format("opentype");
 }
 
 #myVideo {
+
   position: fixed;
   min-width: 100%;
   min-height: 100%;
-  bottom: -15rem;
-  left: -10rem;
+  /*bottom: -15rem;
+  left: -10rem;*/
   right: 0;
   opacity: 20%;
   z-index: -1;
@@ -27,6 +28,8 @@
 }
 body {
   background-color: black;
+  min-height: 100%;
+  min-width: 100%;
 }
 .autograph {
   font-family: "reinkies";
