@@ -31,14 +31,25 @@
     />
 
     <style>
-    
+      @font-face {
+        font-family: "aversa";
+        src: url(/Fonts/aversa/Aversa\ Vectors.woff) format("woff");
+        src: url(/Fonts/aversa/Aversa\ Vectors.woff2) format("woff");
+        src: url(/Fonts/aversa/Aversa\ Vectors.otf) format("opentype");
+        src: url(/Fonts/aversa/Aversa\ Vectors.ttf) format("truetype");
+        src: url(/Fonts/aversa/Aversa\ SVG.otf) format("svg");
+      }
+      @font-face {
+        font-family: "reinkies";
+        src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
+        src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
+        src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
+      }
       body {
         /*background-color: rgb(18, 29, 13);*/
         background-color: black;
       }
-      #custom_navbar_styles {
-        color: aqua;
-      }
+      
       .autograph {
         font-family: "Reinkies";
         font-weight: normal;
@@ -47,7 +58,7 @@
         text-align: center;
       }
       .brushstroke {
-        font-family: "aversa";
+        font-family: "Aversa", "Reinkies";
         font-weight: normal;
         font-style: normal;
         font-size: 250px;
@@ -69,7 +80,7 @@
     </style>
   </head>
   <body>
-    <video autoplay muted loop="1" id="myVideo">
+    <video autoplay muted loop id="myVideo">
       <source src="/videos/Nimetön suunn.malli.mp4" type="video/mp4" />
     </video>
 
