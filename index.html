@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta type ="application/font-woff">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front-Page</title>
@@ -13,18 +14,13 @@
       crossorigin="anonymous"
     />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
     <style>
       @font-face {
         font-family: "aversa";
         src: url(/Fonts/aversa/Aversa-Vectors.woff) format("woff");
         src: url(/Fonts/aversa/Aversa-Vectors.woff2) format("woff");
         src: url(/Fonts/aversa/Aversa-Vectors.otf) format("opentype");
+        src: url(/Fonts/aversa/Aversa-Vectors.ttf) format("truetype");
       }
       @font-face {
         font-family: "reinkies";
@@ -54,9 +50,8 @@
         position: fixed;
         min-width: 100%;
         min-height: 100%;
-        /*bottom: -5rem;*/
-        /*bottom: -15rem;
-        /*left: -10rem;*/
+        bottom: -15rem;
+        left: -10rem;
         right: 0;
         opacity: 20%;
         z-index: -1;
@@ -72,8 +67,8 @@
       muted
       loop
       id="myVideo"
-      src="https://krisbis.github.io/website/Media/backgroundWE.webm"
-      type="video/webm"
+      src="/Media/background_2.1.mp4"
+      type="video/mp4"
     ></video>
   </head>
   <body>
@@ -123,5 +118,11 @@
       <div class="col ms-auto pe-auto"><div class="brushstroke"><</div></div>
       <div class="col ms-auto pe-auto"><div class="brushstroke">></div></div>
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
