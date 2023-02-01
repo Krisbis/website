@@ -1,22 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <DocumentHead>
-    <style>
-    @font-face {
-      font-family: "aversa";
-      src: url(/Fonts/aversa/Aversa\ Vectors.woff) format("woff");
-      src: url(/Fonts/aversa/Aversa\ Vectors.woff2) format("woff");
-      src: url(/Fonts/aversa/Aversa\ Vectors.otf) format("opentype");
-      src: url(/Fonts/aversa/Aversa\ Vectors.ttf) format("truetype");
-    }
-    @font-face {
-      font-family: "reinkies";
-      src: url(/website/Fonts/reinkies-alzl2-webfont.woff) format("woff");
-      src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
-      src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
-    }
-  </style>
-  </DocumentHead>
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -37,7 +21,7 @@
         src: url(/Fonts/aversa/Aversa\ Vectors.woff2) format("woff");
         src: url(/Fonts/aversa/Aversa\ Vectors.otf) format("opentype");
         src: url(/Fonts/aversa/Aversa\ Vectors.ttf) format("truetype");
-        src: url(/Fonts/aversa/Aversa\ SVG.otf) format("svg");
+        
       }
       @font-face {
         font-family: "reinkies";
@@ -51,14 +35,14 @@
       }
       
       .autograph {
-        font-family: "Reinkies";
+        font-family: "reinkies";
         font-weight: normal;
         font-style: normal;
         font-size: 50px;
         text-align: center;
       }
       .brushstroke {
-        font-family: "Aversa", "Reinkies";
+        font-family: "aversa", "reinkies", Arial, Helvetica, sans-serif;
         font-weight: normal;
         font-style: normal;
         font-size: 250px;
@@ -71,7 +55,7 @@
         /*bottom: -15rem;
         /*left: -10rem;*/
         right: 0;
-        opacity: 10%;
+        opacity: 20%;
         z-index: -1;
         filter: grayscale(0.8);
         /*license-free videos from pexels.com, edited together.
