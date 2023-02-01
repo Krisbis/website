@@ -13,22 +13,22 @@
 }
 
 #myVideo {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    bottom: -15rem;
-    left: -10rem;
-    right: 0;
-    opacity: 20%;
-    z-index: -1;
-    filter: grayscale(0.8);
-    /*license-free videos from pexels.com, edited together.
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  bottom: -15rem;
+  left: -10rem;
+  right: 0;
+  opacity: 20%;
+  z-index: -1;
+  filter: grayscale(0.8);
+  /*license-free videos from pexels.com, edited together.
           Credits: business-people:Fauxels & cottonbro studios,
           piano:Kendall Hoopes,alarm-clock:Samsuddoha Shaikh, milky-way:vimeo*/
-  }
-
-
-
+}
+body{
+    background-color: black;
+}
 .autograph {
   font-family: "reinkies";
   font-weight: normal;
@@ -42,4 +42,3 @@
   font-style: normal;
   font-size: 250px;
 }
-
