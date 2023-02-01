@@ -11,10 +11,23 @@
   src: url(/website/Fonts/reinkies-alzl2-webfont.woff2) format("woff");
   src: url(/website/Fonts/Reinkies-ALzl2.otf) format("opentype");
 }
-body {
-  /*background-color: rgb(18, 29, 13);*/
-  background-color: black;
-}
+
+#myVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    bottom: -15rem;
+    left: -10rem;
+    right: 0;
+    opacity: 20%;
+    z-index: -1;
+    filter: grayscale(0.8);
+    /*license-free videos from pexels.com, edited together.
+          Credits: business-people:Fauxels & cottonbro studios,
+          piano:Kendall Hoopes,alarm-clock:Samsuddoha Shaikh, milky-way:vimeo*/
+  }
+
+
 
 .autograph {
   font-family: "reinkies";
@@ -29,17 +42,4 @@ body {
   font-style: normal;
   font-size: 250px;
 }
-#myVideo {
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  bottom: -15rem;
-  left: -10rem;
-  right: 0;
-  opacity: 20%;
-  z-index: -1;
-  filter: grayscale(0.8);
-  /*license-free videos from pexels.com, edited together.
-        Credits: business-people:Fauxels & cottonbro studios,
-        piano:Kendall Hoopes,alarm-clock:Samsuddoha Shaikh, milky-way:vimeo*/
-}
+
