@@ -26,22 +26,35 @@
     bottom: 0;
   }
   #music_bg_img{
-    bottom: 0;
+  width: auto;
+  height: 100%;
+  top: -20rem;
   }
 }
 
-@media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 16/9) and (min-width: 767px) {
   #myVideo {
+    width: auto;
+    min-height: 100%;
+  }
+  #music_bg_img{
     width: auto;
     min-height: 100%;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   #myVideo {
     width: auto;
     min-height: 100%;
     left: -127%;
+  }
+  #music_bg_img{
+    min-width: 1500px;
+    min-height: 100%;
+    left: -34rem;
+    top: -11rem;
+    background-position: center top;
   }
 }
 
@@ -49,7 +62,6 @@ html {
   height: 100%;
 }
 body {
-  min-height: 100%;
   background-color: black;
 }
 
@@ -81,7 +93,9 @@ body {
 #music_bg_img{
   position: fixed;
   opacity: 0.5;
-  justify-self: center;
   filter: grayscale(0.8);
-  margin: 0;
+  z-index: -1;
+  overflow: auto;
+  width: 100%;
+  height: auto;
 }
