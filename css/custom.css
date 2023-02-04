@@ -118,8 +118,8 @@ h6{
   animation-duration: 5s;
 }
 .text_animation{
-  animation: text_animation 10s;
   opacity: 0.8;
+  animation: text_animation 10s;
 }
 @keyframes fadeIn {
   0% { opacity: 0; }
