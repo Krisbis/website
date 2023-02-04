@@ -25,10 +25,10 @@
     right: 0;
     bottom: 0;
   }
-  #music_bg_img{
-  width: auto;
-  height: 100%;
-  top: -20rem;
+  #music_bg_img {
+    width: auto;
+    height: 100%;
+    top: -20rem;
   }
 }
 
@@ -37,7 +37,7 @@
     width: auto;
     min-height: 100%;
   }
-  #music_bg_img{
+  #music_bg_img {
     width: auto;
     min-height: 100%;
   }
@@ -49,7 +49,7 @@
     min-height: 100%;
     left: -127%;
   }
-  #music_bg_img{
+  #music_bg_img {
     min-width: 1500px;
     min-height: 100%;
     left: -34rem;
@@ -62,7 +62,14 @@ html {
   height: 100%;
 }
 body {
+  height: 100%;
   background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+h6{
+  font-size: medium;
 }
 
 /*-- INDEX.html --*/
@@ -78,7 +85,6 @@ body {
 .autograph {
   font-family: "reinkies";
   font-size: 50px;
-  
 }
 .brushstroke {
   font-family: "aversa", "reinkies";
@@ -89,13 +95,33 @@ body {
   margin-top: 8vh;
 }
 
+
+
+
 /*-- MUSIC.html --*/
-#music_bg_img{
+#music_bg_img {
   position: fixed;
-  opacity: 0.5;
+  opacity: 0.32;
   filter: grayscale(0.8);
   z-index: -1;
   overflow: auto;
   width: 100%;
   height: auto;
+}
+.music_container{
+
+}
+.music_brush {
+  font-family: "reinkies";
+  font-size: 80px;
+}
+.reinkies_normal{
+  font-family: "reinkies";
+  font-size: x-large;
+  color: #eb7a01;
+  /* text-decoration: 1px underline rgb(0, 0, 0); */
+}
+
+.card {
+  background-color: transparent;
 }
