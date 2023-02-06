@@ -56,6 +56,9 @@
     top: -11rem;
     background-position: center top;
   }
+  h6{
+    width: 75%;
+  }
 }
 
 html {
