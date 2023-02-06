@@ -135,6 +135,21 @@ h6{
   /* text-decoration: 1px underline rgb(0, 0, 0); */
 }
 
+.spacer_height_28_percent{
+  height: 28%;
+}
+
 .card {
-  background-color: transparent;
+  max-height: 280px;
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: drop-shadow(-5px 3rem 0.6rem rgb(0, 0, 0));
+}
+
+.my_Music_Bg{
+  height: 100%;
+  background: url(/Images/pexels-aleksandar-pasaric-1530423.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
 }
