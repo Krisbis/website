@@ -25,7 +25,7 @@
     right: 0;
     bottom: 0;
   }
-  #music_bg_img {
+  #orchestra_img {
     width: auto;
     height: 100%;
     top: -20rem;
@@ -37,7 +37,7 @@
     width: auto;
     min-height: 100%;
   }
-  #music_bg_img {
+  #orchestra_img {
     width: auto;
     min-height: 100%;
   }
@@ -49,7 +49,7 @@
     min-height: 100%;
     left: -127%;
   }
-  #music_bg_img {
+  #orchestra_img {
     min-width: 1500px;
     min-height: 100%;
     left: -34rem;
@@ -99,7 +99,7 @@ h6{
 
 
 /*-- MUSIC.html --*/
-#music_bg_img {
+#orchestra_img {
   position: fixed;
   opacity: 0.32;
   filter: grayscale(0.8);
@@ -146,7 +146,7 @@ h6{
   filter: drop-shadow(-5px 3rem 0.6rem rgb(0, 0, 0));
 }
 
-.my_Music_Bg{
+.man_in_rain_img{
   height: 100%;
   background: url(/website/Images/pexels-aleksandar-pasaric-1530423.jpg);
   background-position: center;
