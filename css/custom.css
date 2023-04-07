@@ -1,8 +1,7 @@
 @font-face {
   font-family: "reinkies";
   src: url("../Fonts/reinkies/reinkies-alzl2-webfont.woff") format("woff");
-  src: url("../Fonts/reinkies/reinkies-alzl2-webfont.woff2")
-    format("woff");
+  src: url("../Fonts/reinkies/reinkies-alzl2-webfont.woff2") format("woff");
   src: url("../Fonts/reinkies/Reinkies-ALzl2.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
@@ -58,6 +57,15 @@
   }
 }
 
+::-webkit-scrollbar {
+  opacity: 0;
+  width: 4px;
+  background-color: rgb(23, 23, 23);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+}
+
 html {
   height: 100%;
 }
@@ -69,20 +77,20 @@ body {
   overflow-x: hidden;
 }
 
-.hero{
-  width:100%;
+.hero {
+  width: 100%;
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
-h6{
+h6 {
   font-size: medium;
 }
 
 /*-- INDEX.html --*/
 #myVideo {
   position: fixed;
-  opacity: 20%;
+  opacity: 25%;
   z-index: -1;
   filter: grayscale(0.8);
   /* license-free videos from pexels.com, edited together.
@@ -97,18 +105,15 @@ h6{
   font-family: "aversa", "reinkies";
   font-size: 300px;
 }
-.logo_container{
-position: absolute;
-left: 50%;
-top: 50%;
-flex-wrap: nowrap;
+.logo_container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  flex-wrap: nowrap;
 }
 .custom_spacing {
   margin-top: 8vh;
 }
-
-
-
 
 /*-- MUSIC.html --*/
 #orchestra_img {
@@ -126,28 +131,35 @@ flex-wrap: nowrap;
   animation-name: fadeIn;
   animation-duration: 5s;
 }
-.text_animation{
+.text_animation {
   opacity: 0.8;
   animation: text_animation 10s;
 }
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@keyframes text_animation{
-  0% { opacity: 0; }
-  100% { opacity: 0.8; }
+@keyframes text_animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
 }
 
-
-.reinkies_normal{
+.reinkies_normal {
   font-family: "reinkies";
   font-size: 22px;
   color: #eb7a01;
   /* text-decoration: 1px underline rgb(0, 0, 0); */
 }
 
-.spacer_height_28_percent{
+.spacer_height_28_percent {
   height: 28%;
 }
 
@@ -158,10 +170,22 @@ flex-wrap: nowrap;
   filter: drop-shadow(-5px 3rem 0.6rem rgb(0, 0, 0));
 }
 
-.man_in_rain_img{
+.man_in_rain_img {
   height: 100%;
   background: url(../Images/pexels-aleksandar-pasaric-1530423.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
+}
+
+/*-- CONTACT.html --*/
+#neon_img {
+  position: fixed;
+  opacity: 0.5;
+  filter: grayscale(0.8);
+  z-index: -1;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  left: -10px;
 }
