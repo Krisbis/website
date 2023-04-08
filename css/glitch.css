@@ -1,9 +1,9 @@
-/* glitching text by Kay doud @ Codepen - translated it from scss to css */
+/* glitching text by Kay doud @ Codepen - translated it from scss to css & modified it */
 
 .glitch {
     position: relative;
     color: white;
-    font-size: 5em;
+    font-size: 4em;
     font-family: "reinkies";
     letter-spacing: 0.5em;
     animation: glitch-skew 10s infinite linear alternate-reverse;
