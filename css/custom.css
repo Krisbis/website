@@ -181,7 +181,7 @@ h6 {
 /*-- CONTACT.html --*/
 #neon_img {
   position: fixed;
-  opacity: 0.5;
+  opacity: 0.4;
   filter: grayscale(0.8);
   z-index: -1;
   overflow: auto;
