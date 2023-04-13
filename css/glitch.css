@@ -3,10 +3,11 @@
 .glitch {
     position: relative;
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     font-family: "reinkies";
     letter-spacing: 0.5em;
     animation: glitch-skew 10s infinite linear alternate-reverse;
+    overflow-x: visible;
   }
   .glitch::before {
     content: attr(data-text);
