@@ -34,6 +34,9 @@
     height: 100%;
     top: -70rem
   }
+  #myDoggo{
+    top: -25rem;
+  }
   .badge-container {
     text-align: end;
     margin-top: 2rem;
@@ -53,6 +56,10 @@
     width: auto;
     height: 100%;
     top: -30rem;
+  }
+  #myDoggo {
+    width: auto;
+    min-height: 100%;
   }
   .badge-container {
     text-align: end;
@@ -74,10 +81,9 @@
     background-position: center top;
   }
   #myDoggo{
-    min-width: 700px;
-    min-height: 100%;
-    left: -10rem;
-    top: 1rem;
+    left: -11rem;
+    top: -5rem;
+    min-width: 767px;
     background-position: center top;
   }
   .badge-container {
