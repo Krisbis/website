@@ -227,6 +227,15 @@ h6 {
   box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
 }
 
+.nightlight_img {
+  height: 100%;
+  background: url(../Images/pexels-bao-dang-3700369.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
+}
+
+
 /*-- CONTACT.html --*/
 #contact_img {
   position: fixed;
