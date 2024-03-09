@@ -235,6 +235,14 @@ h6 {
   box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
 }
 
+.wobble_img {
+  height: 100%;
+  background: url(../Images/pexels-harrison-haines-3536274.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
+}
+
 
 /*-- CONTACT.html --*/
 #contact_img {
