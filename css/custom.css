@@ -243,6 +243,14 @@ h6 {
   box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
 }
 
+.gringo_img {
+  height: 100%;
+  background: url(../Images/Baile_Del_Gringo_Loco_4096.jpeg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
+}
+
 
 /*-- CONTACT.html --*/
 #contact_img {
