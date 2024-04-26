@@ -251,6 +251,14 @@ h6 {
   box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
 }
 
+.nameless_img {
+  height: 100%;
+  background: url(../Images/bonfire_AI.jpeg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 80px 25px rgb(8, 8, 8);
+}
+
 
 /*-- CONTACT.html --*/
 #contact_img {
